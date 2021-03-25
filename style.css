@@ -1,0 +1,55 @@
+body {
+  background-image: url("images/bg_pattern11.jpg");
+  background-repeat: repeat;
+  /* opacity: 0.75; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 { 
+	color: #0000AA;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 36px; font-weight: 400; 
+	font-style: italic; 
+	font-weight: bold;
+	line-height: 44px; 
+	margin: 0 0 12px; 
+}
+
+.transparent_white {
+  mix-blend-mode: multiply;
+}
+
+
+
+
+table.blueTable {
+  border: 1px solid rgb(198, 230, 248);
+  background-color: rgb(230, 248, 230);
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 5px 8px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: rgb(203, 235, 240);
+}
+table.blueTable thead {
+  background: rgb(136, 208, 226);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #776677;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
