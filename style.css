@@ -20,6 +20,19 @@ h1 {
 }
 
 
+span.gray {
+	color: gray;
+}
+span.blue { /* Angel */
+	color: blue;
+}
+span.green { /* Messenger */
+	color: green;
+}
+span.teal { /* Umar */
+	color: teal;
+}
+
 
 
 table.blueTable {
