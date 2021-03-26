@@ -20,7 +20,10 @@ h1 {
 }
 
 
-span.gray {
+span.brown { /* Quran */
+	color: brown;
+}
+span.gray { /* source */
 	color: gray;
 }
 span.blue { /* Angel */
