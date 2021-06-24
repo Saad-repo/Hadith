@@ -1,6 +1,31 @@
 <!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <title>Necip Said</title>
-<style>.styled-table {
+<style>
+
+h1 {
+	color: navy;	
+}
+h2 {
+	color: rgb(15, 223, 15);	
+}
+body {
+	color: rgb(4, 5, 4);
+	font-size: x-large;
+	background-color: rgb(85, 59, 34);
+}
+
+div.with-img-back1 {
+  background-image: url('images/book1.jpg');
+  background-repeat: no-repeat;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: .2em;
+  margin: 0px;
+}
+
+
+
+.styled-table {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
@@ -16,6 +41,7 @@
 .styled-table th,
 .styled-table td {
     padding: 12px 15px;
+    border: 1px solid #db9a0e;
 }
 .styled-table tbody tr {
     border-bottom: 1px solid #dddddd;
@@ -35,26 +61,30 @@
 
 <body>
 
-<div style="background-image: url('images/book1.jpg');">
-	<h1 style="color: navy;">Necib'in safyasına hoş geldiniz</h1>
+<div class="with-img-back1">
+	<h1>Necib'in safyasına hoş geldiniz</h1>
 
+	<br>
 	<p>2021 yaz tatili için hedef <strong>kitap ehli ve dostu olmak</strong>. iyi okumalar...</p>
-
 
 	<h2>Simdilik okudugum kitaplar</h2>
 
+</div>
+
 	<table class="styled-table">
 	<thead><tr>
-		<th>Kitap Adi</th>
+		<th></th>
+		<th>Kitap Adı</th>
 		<th>Yazar</th>
 		<th>Okuma Tarihi</th>
 	</tr></thead>
 	<tbody>
 	</tr>
 	<tr>
-		<td>Test</td>
-		<td>Test</td>
-		<td>23/6/2021</td>
+		<td><img src="images/book-canakkale-savaslar.jpg" style="width: 150px;"/></td>
+		<th>Çanakkale Savaşları ve Gezi Rehberi</th>
+		<td>Talha Uğurluel</td>
+		<td>Çarşamba, 23/6/2021</td>
 	</tr>
 	</tbody>
 	</table>
@@ -80,7 +110,6 @@
 
 
 
-</div>
 
 
 <script></script>
